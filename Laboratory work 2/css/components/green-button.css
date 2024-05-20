@@ -1,0 +1,12 @@
+.button {
+    background-color: #D7FFE0;
+    color: #018C0F;
+    padding: 5px 10px; /* Изменено на фиксированный padding */
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 0px;  
+    width: 100px; /* Добавлена фиксированная ширина */
+    box-sizing: border-box; /* Включаем box-sizing, чтобы padding не влиял на ширину */
+    text-align: center; /* Выравниваем текст по центру */
+  }

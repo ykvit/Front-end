@@ -1,0 +1,19 @@
+@import "container.css";
+@import 'header.css';
+@import "nav.css";
+@import "social-list.css";
+@import "logo.css";
+@import "title.css";
+@import "section-hero.css";
+@import "section.css";
+@import "project-card.css";
+@import "section-projects.css";
+
+@import "tech-stack.css";
+@import "footer.css";
+@import "contact-info.css";
+@import "education.css";
+@import "work-experience.css";
+@import "green-button.css";
+@import "about.css";
+@import "line-after.css"
