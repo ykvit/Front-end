@@ -1,0 +1,64 @@
+.unique-features {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .unique-features .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .unique-features h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .circles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+  
+  .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circle-shape {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Стили для каждого круга */
+  .circle-1 {
+    background: #21F7EC;
+  }
+  
+  .circle-2 {
+    background: #33D3BC;
+  }
+  
+  .circle-3 {
+    background: #18A5C6;
+  }
+  
+  .circle-4 {
+    background: #D38F62;
+  }
+  
+  .circle-5 {
+    background: #F94C43;
+  }
+  
+  .circle-6 {
+    background: #D399FF;
+  }
+  
+  .circle p {
+    margin: 0;
+    font-size: 1em;
+  }
+  

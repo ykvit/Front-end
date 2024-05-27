@@ -1,0 +1,14 @@
+.footer-left{
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.footer-left2 {
+  display: flex;
+  align-items: center;
+  margin-left: -950px;
+  margin-bottom: -50px;
+
+}
+

@@ -1,0 +1,54 @@
+.keep-in-touch {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .keep-in-touch .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .keep-in-touch h2 {
+    margin-bottom: 20px;
+  }
+  
+  .keep-in-touch p {
+
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .name-fields {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 60px; /* Расстояние между полями First Name и Last Name */
+  }
+  
+  .name-fields input {
+    width: 153px;
+    height: 39px;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    box-sizing: border-box;
+  }
+  
+  .email-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .email-field input {
+    width: 366px; /* Длина поля email */
+    height: 39px;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    box-sizing: border-box;
+  }

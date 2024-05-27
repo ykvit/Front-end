@@ -1,0 +1,36 @@
+.main-content {
+    background-color: #F0EFEB;
+    padding: 100px 0; 
+    margin-left: calc(-100vw / 2 + 100% / 2);
+    margin-right: calc(-100vw / 2 + 100% / 2);
+    max-width: 100vw;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  
+    
+    .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .content-text {
+      max-width: 500px;
+      margin-right: 200px; 
+    }
+
+    .content-text h1 {
+        margin-bottom: 20px; /* Добавляем отступ под заголовком */
+    }
+    
+    .content-text p {
+        margin-bottom: 20px; /* Добавляем отступ под параграфом */
+    }
+    
+    .humanity-image {
+    width: 599px;
+    height: 521px;
+    }
+    

@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #1c1b1b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icons img {
+    width: 40px;
+    height: 40px;
+  }

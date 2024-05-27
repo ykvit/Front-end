@@ -1,0 +1,40 @@
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-right: 200px; /* Устанавливаем нужный отступ справа */
+}
+
+.footer-column {
+  margin-left: 150px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+
+}
+
+.footer-column ul li a {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+
+}
+
+.footer-column ul li a:hover {
+  color: #000;
+}

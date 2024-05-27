@@ -1,0 +1,38 @@
+/* Стили для секции Culture and Heritage */
+.culture-heritage {
+    background-color: rgba(240, 239, 235, 0.6); /* 60% прозрачности */
+    padding: 100px 0; 
+    margin-left: calc(-100vw / 2 + 100% / 2);
+    margin-right: calc(-100vw / 2 + 100% / 2);
+    max-width: 100vw;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.culture-heritage .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.culture-heritage .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row-reverse; /* Изменяем порядок элементов */
+}
+
+.heritage-image {
+    height: 525px;
+}
+
+.culture-heritage .text-content {
+    width: 50%;
+    text-align: right; /* Выравнивание текста по правому краю */
+}
+
