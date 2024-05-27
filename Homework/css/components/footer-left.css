@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 100px;
+  margin-left:200px;
 }
 
 .footer-left2 {
@@ -12,3 +13,19 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+  .footer-left2 {
+    margin-left: -325px; /* Уменьшаем отступ слева */
+  } }
+
+
+  @media screen and (max-width: 768px) {
+    .footer-left,
+  .footer-left2{
+    margin: 0 0 30px 0; /* Обнуляем отступы и добавляем снизу */
+  } }
+
+  @media screen and (max-width: 768px) {
+    .footer-left2{
+    margin-left: 0; /* Обнуляем отступ слева */
+  }}

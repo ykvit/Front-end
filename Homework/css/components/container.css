@@ -2,3 +2,11 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+  @media screen and (max-width: 896px) and (orientation: portrait) {
+    .container {
+        max-width: 896px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+

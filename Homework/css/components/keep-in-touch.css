@@ -52,3 +52,31 @@
     border-radius: 0px;
     box-sizing: border-box;
   }
+
+  /* Адаптация для экранов до 768px */
+@media screen and (max-width: 768px) {
+  .keep-in-touch .container {
+      max-width: 80%; /* Уменьшаем максимальную ширину контейнера */
+  }
+
+  .name-fields {
+      flex-direction: column; /* Отображаем поля имени и фамилии в столбец на мобильных устройствах */
+      gap: 20px; /* Уменьшаем расстояние между полями */
+  }
+
+  .name-fields input {
+      width: 100%; /* Ширина поля имени и фамилии на мобильных устройствах */
+      margin-bottom: 0; /* Убираем отступ снизу */
+  }
+
+  .email-field input {
+      width: 100%; /* Ширина поля email на мобильных устройствах */
+  }
+}
+
+/* Адаптация для экранов до 480px */
+@media screen and (max-width: 480px) {
+  .keep-in-touch .container {
+      padding: 0 20px; /* Уменьшаем отступы по бокам контейнера */
+  }
+}

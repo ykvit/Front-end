@@ -31,3 +31,30 @@
     font-size: 1em;
   }
   
+
+  /* Адаптация для экранов до 1024px */
+@media screen and (max-width: 1024px) {
+  .image-section .container {
+      grid-template-columns: repeat(2, 1fr); /* Уменьшаем количество столбцов до двух на экранах до 1024px */
+      gap: 50px; /* Уменьшаем отступы между колонками */
+  }
+}
+
+/* Адаптация для экранов до 768px */
+@media screen and (max-width: 768px) {
+  .image-section .container {
+      grid-template-columns: 1fr; /* Один столбец на экранах до 768px */
+      gap: 30px; /* Уменьшаем отступы между колонками */
+  }
+}
+
+/* Адаптация для экранов до 480px */
+@media screen and (max-width: 480px) {
+  .image-section .container {
+      gap: 20px; /* Уменьшаем отступы между колонками еще больше */
+  }
+
+  .image-item p {
+      font-size: 0.9em; /* Уменьшаем размер текста */
+  }
+}

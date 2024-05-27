@@ -38,3 +38,30 @@ color: #FFFFFF;
 .footer-column ul li a:hover {
   color: #000;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .footer-right {
+    margin-right: 50px; /* Уменьшаем отступ справа */
+  }
+
+  .footer-column {
+    margin-left: 100px; /* Уменьшаем отступ между колонками */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-right {
+    margin: 0 0 30px 0; /* Обнуляем отступы и добавляем снизу */
+  } 
+
+  .footer-right {
+    flex-direction: column; /* Располагаем колонки в колонку */
+    align-items: center; /* Выравниваем по центру */
+    margin-right: 0; /* Обнуляем отступ справа */
+  }
+
+  .footer-column {
+    margin-left: 0; /* Обнуляем отступ между колонками */
+    text-align: center; /* Выравниваем текст по центру */
+  }}

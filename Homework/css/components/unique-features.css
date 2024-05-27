@@ -8,11 +8,6 @@
     margin: 0 auto;
   }
   
-  .unique-features h2 {
-    font-size: 2em;
-    margin-bottom: 40px;
-  }
-  
   .circles-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -62,3 +57,29 @@
     font-size: 1em;
   }
   
+
+  /* Адаптация для экранов до 1024px */
+@media screen and (max-width: 1024px) {
+  .circles-container {
+      grid-template-columns: repeat(2, 1fr); /* Уменьшаем количество столбцов до двух на экранах до 1024px */
+  }
+}
+
+/* Адаптация для экранов до 768px */
+@media screen and (max-width: 768px) {
+  .circles-container {
+      grid-template-columns: 1fr; /* Один столбец на экранах до 768px */
+      grid-gap: 20px; /* Уменьшаем расстояние между элементами */
+  }
+}
+
+/* Адаптация для экранов до 480px */
+@media screen and (max-width: 480px) {
+  .circles-container {
+      grid-gap: 10px; /* Уменьшаем расстояние между элементами еще больше */
+  }
+
+  .unique-features h2 {
+      font-size: 1.5em; /* Уменьшаем размер заголовка */
+  }
+}

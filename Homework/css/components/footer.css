@@ -10,3 +10,9 @@ footer {
     position: relative;
   }
   
+  @media screen and (max-width: 768px) {
+    footer {
+      flex-direction: column; /* Располагаем элементы в колонку */
+      align-items: center; /* Выравниваем по центру */
+      padding: 50px 0;
+    } }

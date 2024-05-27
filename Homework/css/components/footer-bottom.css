@@ -11,3 +11,9 @@
   font-size: 14px;
   line-height: 21px;
 }
+
+@media screen and (max-width: 768px) {
+.footer-bottom {
+  position: static; /* Убираем абсолютное позиционирование */
+}
+}

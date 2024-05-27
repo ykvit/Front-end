@@ -24,9 +24,34 @@
     height: auto;
 }
 
-/* Стили для изображения продукта (соответствуют заданным размерам) */
+
 .product-item img {
     width: 309px;
     height: 422px;
-    object-fit: cover; /* Это обеспечит корректное отображение изображения в указанных размерах */
+    object-fit: cover; 
+}
+
+/* Адаптация для экранов до 1024px */
+@media screen and (max-width: 1024px) {
+    .product-item {
+        width: 309px; 
+        margin: 20px; 
+    }
+}
+
+/* Адаптация для экранов до 768px */
+@media screen and (max-width: 768px) {
+    .product-item {
+        width: 100%; 
+        margin: 20px;
+    }
+}
+
+/* Адаптация для экранов до 480px */
+@media screen and (max-width: 480px) {
+    .product-item img {
+        width: 100%; 
+        height: auto; 
+    }
+
 }

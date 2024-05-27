@@ -35,3 +35,42 @@
     text-align: left; /* Выравнивание текста по левому краю */
 }
 
+/* Адаптация для экранов до 1024px */
+@media screen and (max-width: 1024px) {
+    .text-content {
+        width: 50%; 
+        margin-bottom: 40px; 
+        text-align: center; 
+    }
+
+    .society-image {
+        width: 50%;
+        height: auto;
+    }
+}
+
+/* Адаптация для экранов до 768px */
+@media screen and (max-width: 768px) {
+    .text-content {
+        width: 50%; 
+        margin-bottom: 30px; 
+    }
+
+    .society-image {
+        height: auto; 
+        max-width: 50%; 
+    }
+}
+
+/* Адаптация для экранов до 480px */
+@media screen and (max-width: 480px) {
+    .text-content {
+        width: 50%; 
+        margin-bottom: 20px; 
+    }
+
+    .society-image {
+        height: auto; 
+        max-width: 50%; 
+    }
+}
