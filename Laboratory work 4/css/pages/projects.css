@@ -1,0 +1,164 @@
+.projects-page .page-content {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.projects-section .inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: -20px;
+}
+
+.projects-page .page-content .filters {
+  display: flex;
+  flex-wrap: wrap; /* додати цю властивість */
+  margin-bottom: 60px;
+}
+
+.projects-page .page-content .filters > * {
+  flex: 1 1 calc(33.33% - 30px); /* замінити flex: 1 0 0%; */
+  margin-right: 30px; /* змінити відступ між фільтрами */
+  margin-bottom: 15px; /* додати відступ знизу */
+}
+
+.projects-page .page-content .filters > *:last-child {
+  margin-right: 0; /* видалити відступ праворуч для останнього елемента */
+}
+
+.projects-page .page-content .subtitle {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.projects-page .page-content .desc {
+  margin-bottom: 5%;
+}
+
+.project-card {
+  width: 30%;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.no-items {
+  text-align: center;
+  font-size: 18px;
+  color: 42446E;
+}
+
+.layout-toggle {
+  margin-bottom: 0;
+  margin-left: auto; /* змінити на auto для вирівнювання праворуч */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.layout-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.layout-btn img {
+  width: 38px;
+  height: 38px;
+  margin-top: 3px;
+}
+
+.projects-section .inner.grid-view {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-section .inner.grid-view .project-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.projects-section .inner.grid-view .project-card .img {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+
+.projects-section .inner.grid-view .project-card .img {
+  flex: 0 0 40%;
+  max-width: 40%;
+  border-radius: 20px 0 0 20px; 
+}
+
+.projects-section .inner.grid-view .project-card .content {
+  flex: 0 0 60%;
+  max-width: 60%;
+  padding-left: 20px;
+}
+
+.filters {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; /* Add this line  */
+}
+
+.filters #technology-select,
+.filters #theme-select,
+.filters #platform-select {
+  max-width: 100%; /* замість max-width: 500px; */
+  width: 100%; /* додати цю властивість */
+  cursor: pointer;
+}
+
+.no-items {
+  text-align: center;
+  font-size: 18px;
+  color: #42446E;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .projects-page .page-content .filters {
+    flex-direction: column;
+
+  }
+
+  .projects-page .page-content .filters > *:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .layout-toggle {
+    margin-top: 15px; 
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 20px; 
+  }
+
+  .projects-page .page-content .filters {
+    margin-bottom: 30px; 
+  }
+}
+
+@media (max-width: 767px) {
+  .projects-page .page-content .filters {
+    flex-direction: column;
+    align-items: flex-start; /* Add this line */
+  }
+
+  .projects-page .page-content .filters > * {
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 100%; /* Add this line */
+  }
+
+  .layout-toggle {
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .projects-page .page-content .filters {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,12 @@
+.green-button {
+    background-color: #D7FFE0;
+    color: #018C0F;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 0px;  
+    width: 100px; 
+    box-sizing: border-box; 
+    text-align: center; 
+  }
